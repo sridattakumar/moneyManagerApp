@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.moneyDetails-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-container {
+  background-color: #84cc16;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 12px;
+}
+.money-icon {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+.text-amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.balance {
+  color: #7e858e;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.rupees {
+  color: #7e858e;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.income-container {
+  background-color: #06b6d4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 12px;
+}
+.expenses-container {
+  background-color: #7c3aed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 12px;
+}
